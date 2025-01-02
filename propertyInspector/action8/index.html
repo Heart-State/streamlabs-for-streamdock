@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>模板 - 属性检查器</title>
+    <link rel="stylesheet" href="../../static/css/sdpi.css">
+</head>
+
+<body>
+    <style>
+        .temp {
+            flex-wrap: wrap;
+            justify-content: flex-end;
+        }
+        .tips{
+            width: 100%;
+            text-align: center!important;
+            user-select: text!important;
+        }
+        .sdpi-item-label{
+            line-height: 26px;
+        }
+    </style>
+    <div class="sdpi-wrapper">
+        <form id="authorizeBox">
+            <div class="sdpi-item">
+                <div class="sdpi-item-label">获取地址</div>
+                <div class="sdpi-item-value" style="color: rgb(0, 216, 162);line-height: 30px;" id="open">
+                    <span>https://streamlabs.com/dashboard</span>
+                </div>
+            </div>
+            <div class="tips">
+                <span>创建应用并添加两个重定向URL: http://localhost:3056/ 和 http://localhost:3056/settings</span>
+            </div>
+            <div class="sdpi-item">
+                <div class="sdpi-item-label">client_id</div>
+                <input class="sdpi-item-value" id="clientId" type="text" required>
+            </div>
+            <div class="sdpi-item">
+                <div class="sdpi-item-label">client_secret</div>
+                <input class="sdpi-item-value" id="clientSecret" type="text" required>
+            </div>
+            <div class="sdpi-item">
+                <div class="sdpi-item-label">保存</div>
+                <button class="sdpi-item-value" id="authorizeBtn">保存</button>
+            </div>
+        </form>
+        <div id="box" style="display: none">
+            <div type="select" class="sdpi-item">
+                <div class="sdpi-item-label">账户</div>
+                <select class="sdpi-item-value" id="user">
+                    <option id="notLoggedIn" disabled selected>未登录</option>
+                    <option id="loggedIn" style="display: none;">未登录</option>
+                    <option value="addUser">添加账户</option>
+                </select>
+            </div>
+            <!-- button -->
+            <div class="sdpi-item">
+                <div class="sdpi-item-label">注销</div>
+                <button class="sdpi-item-value" id="clearUser">Click Me</button>
+            </div>
+            <div type="select" class="sdpi-item">
+                <div class="sdpi-item-label">操作</div>
+                <select class="sdpi-item-value" id="profilesId">
+                    <!-- <option value="true" selected>增加音量</option>
+                <option value="false">减少音量</option> -->
+                </select>
+            </div>
+            <div id="referenceTest"></div>
+        </div>
+    </div>
+
+    <script src="../utils/common.js"></script>
+    <script src="../utils/action.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

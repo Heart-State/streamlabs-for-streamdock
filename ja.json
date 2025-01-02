@@ -1,0 +1,158 @@
+{
+    "Name": "ストリームラボ",
+    "Description": "Streamlabs のライブ運用",
+    "com.mirabox.streamdock.streamlabs.action1": {
+        "Name": "テスト警告",
+        "Tooltip": "テスト警告"
+    },
+    "com.mirabox.streamdock.streamlabs.action2": {
+        "Name": "アラートをスキップ",
+        "Tooltip": "アラートをスキップ"
+    },
+    "com.mirabox.streamdock.streamlabs.action3": {
+        "Name": "アラームを消す",
+        "Tooltip": "アラームを消す",
+        "States": [
+            {
+                "Name": "ミュート"
+            },
+            {
+                "Name": "ミュートを解除する"
+            }
+        ]
+    },
+    "com.mirabox.streamdock.streamlabs.action4": {
+        "Name": "アラームを一時停止する",
+        "Tooltip": "チャットをフォロワーに制限するをオンにします。"
+    },
+    "com.mirabox.streamdock.streamlabs.action5": {
+        "Name": "回転ホイール",
+        "Tooltip": "運命の輪を回す"
+    },
+    "com.mirabox.streamdock.streamlabs.action6": {
+        "Name": "プレイクレジット",
+        "Tooltip": "プレイクレジット"
+    },
+    "com.mirabox.streamdock.streamlabs.action7": {
+        "Name": "瓶を空にする",
+        "Tooltip": "より多くの寄付を収容できるように瓶を空にします"
+    },
+    "com.mirabox.streamdock.streamlabs.action8": {
+        "Name": "設定ファイルを変更する",
+        "Tooltip": "設定ファイルを変更する"
+    },
+    "com.mirabox.streamdock.streamlabs.action9": {
+        "Name": "メディアを一時停止する",
+        "Tooltip": "現在のメディアを一時停止/再生する",
+        "States": [
+            {
+                "Name": "一時停止"
+            },
+            {
+                "Name": "続く"
+            }
+        ]
+    },
+    "com.mirabox.streamdock.streamlabs.action10": {
+        "Name": "音量調整",
+        "Tooltip": "メディアの音量を調整する"
+    },
+    "com.mirabox.streamdock.streamlabs.action11": {
+        "Name": "メディアをスキップする",
+        "Tooltip": "次のメディアにジャンプします"
+    },
+    "com.mirabox.streamdock.streamlabs.action12": {
+        "Name": "以前のメディア",
+        "Tooltip": "前のメディアにジャンプ"
+    },
+    "com.mirabox.streamdock.streamlabs.action13": {
+        "Name": "切り替え要求",
+        "Tooltip": "新しいメディアリクエストを有効/無効にする",
+        "States": [
+            {
+                "Name": "有効にする"
+            },
+            {
+                "Name": "無効にする"
+            }
+        ]
+    },
+    "com.mirabox.streamdock.streamlabs.action14": {
+        "Name": "自動再生の切り替え",
+        "Tooltip": "連続メディアの自動再生を有効/無効にする",
+        "States": [
+            {
+                "Name": "有効にする"
+            },
+            {
+                "Name": "無効にする"
+            }
+        ]
+    },
+    "com.mirabox.streamdock.streamlabs.action15": {
+        "Name": "自動表示の切り替え",
+        "Tooltip": "現在のメディアの表示/非表示",
+        "States": [
+            {
+                "Name": "有効にする"
+            },
+            {
+                "Name": "無効にする"
+            }
+        ]
+    },
+    "com.mirabox.streamdock.streamlabs.action16": {
+        "Name": "スイッチ調整",
+        "Tooltip": "要求されたメディアのモデレーションを有効/無効にする",
+        "States": [
+            {
+                "Name": "有効にする"
+            },
+            {
+                "Name": "無効にする"
+            }
+        ]
+    },
+    "com.mirabox.streamdock.streamlabs.action17": {
+        "Name": "バックアップリストの切り替え",
+        "Tooltip": "キューの再生が終了したときのバックアップ プレイリストの使用を有効/無効にします。",
+        "States": [
+            {
+                "Name": "有効にする"
+            },
+            {
+                "Name": "無効にする"
+            }
+        ]
+    },
+    "Category": "ストリームラボ",
+    "Localization": {
+        "执行成功！": "実行成功！",
+        "执行失败！": "実行に失敗しました!",
+        "请求过于频繁，请稍后再试！": "リクエストが多すぎます。後でもう一度お試しください。",
+        "字符串太长！": "文字列が長すぎます!",
+        "账户": "アカウント",
+        "未登录": "ログインしていない",
+        "添加账户": "アカウントを追加する",
+        "注销": "ログアウト",
+        "消息": "情報",
+        "授权成功": "認可成功",
+        "您已成功授权！": "無事に認証されました！",
+        "Click Me": "クリックミー",
+        "增加音量": "音量を上げる",
+        "减少音量": "音量を下げる",
+        "无帐户": "アカウントがありません",
+        "新增": "新しい",
+        "配置文件": "設定ファイル",
+        "操作": "操作する",
+        "调高": "現れる",
+        "调低": "断る",
+        "保存": "保存して認証",
+        "client_secret": "client_secret",
+        "client_id": "client_id",
+        "获取地址": "アドレスを取得",
+        "https://streamlabs.com/dashboard": "https://streamlabs.com/dashboard",
+        "只在您上线时发挥作用": "オンラインのときのみ機能します",
+        "创建应用并添加两个重定向URL: http://localhost:3056/ 和 http://localhost:3056/settings": "アプリケーションを作成し、最後のステップで自分のアカウントをホワイトリストに追加し、2つのリダイレクトURLを追加: http://localhost:3056/ および http://localhost:3056/settings"
+    }
+}

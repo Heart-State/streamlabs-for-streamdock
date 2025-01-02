@@ -1,0 +1,432 @@
+{
+  "Actions": [
+    {
+      "Icon": "static/images/actions/alert_white",
+      "Name": "测试警告",
+      "States": [
+        {
+          "FontSize": "16",
+          "TitleAlignment": "bottom",
+          "Image": "static/images/icons/alert"
+        }
+      ],
+      "Controllers": [
+        "Keypad",
+        "Information"
+      ],
+      "UserTitleEnabled": true,
+      "SupportedInMultiActions": false,
+      "Tooltip": "行动说明",
+      "UUID": "com.mirabox.streamdock.streamlabs.action1",
+      "PropertyInspectorPath": "propertyInspector/action1/index.html"
+    },
+    {
+      "Icon": "static/images/actions/skip_white",
+      "Name": "跳过警报",
+      "States": [
+        {
+          "FontSize": "16",
+          "TitleAlignment": "bottom",
+          "Image": "static/images/icons/skip"
+        }
+      ],
+      "Controllers": [
+        "Keypad",
+        "Information"
+      ],
+      "UserTitleEnabled": true,
+      "SupportedInMultiActions": false,
+      "Tooltip": "行动说明",
+      "UUID": "com.mirabox.streamdock.streamlabs.action2",
+      "PropertyInspectorPath": "propertyInspector/action2/index.html"
+    },
+    {
+      "Icon": "static/images/actions/toggle_mute_white",
+      "Name": "将警报静音",
+      "States": [
+        {
+          "State": 0,
+          "FontSize": "16",
+          "TitleAlignment": "bottom",
+          "Image": "static/images/icons/mute"
+        },
+        {
+          "State": 1,
+          "FontSize": "16",
+          "TitleAlignment": "bottom",
+          "Image": "static/images/icons/unmute"
+        }
+      ],
+      "Controllers": [
+        "Keypad",
+        "Information"
+      ],
+      "UserTitleEnabled": true,
+      "SupportedInMultiActions": false,
+      "Tooltip": "行动说明",
+      "UUID": "com.mirabox.streamdock.streamlabs.action3",
+      "PropertyInspectorPath": "propertyInspector/action3/index.html"
+    },
+    {
+      "Icon": "static/images/actions/toggle_pause_white",
+      "Name": "暂停警报",
+      "States": [
+        {
+          "State": 0,
+          "FontSize": "16",
+          "TitleAlignment": "bottom",
+          "Image": "static/images/icons/pause"
+        },
+        {
+          "State": 1,
+          "FontSize": "16",
+          "TitleAlignment": "bottom",
+          "Image": "static/images/icons/unpause"
+        }
+      ],
+      "Controllers": [
+        "Keypad",
+        "Information"
+      ],
+      "UserTitleEnabled": true,
+      "SupportedInMultiActions": false,
+      "Tooltip": "行动说明",
+      "UUID": "com.mirabox.streamdock.streamlabs.action4",
+      "PropertyInspectorPath": "propertyInspector/action4/index.html"
+    },
+    {
+      "Icon": "static/images/actions/spinwheel_white",
+      "Name": "旋转滚轮",
+      "States": [
+        {
+          "FontSize": "16",
+          "TitleAlignment": "bottom",
+          "Image": "static/images/icons/spinwheel"
+        }
+      ],
+      "Controllers": [
+        "Keypad",
+        "Information"
+      ],
+      "UserTitleEnabled": true,
+      "SupportedInMultiActions": false,
+      "Tooltip": "行动说明",
+      "UUID": "com.mirabox.streamdock.streamlabs.action5",
+      "PropertyInspectorPath": "propertyInspector/action5/index.html"
+    },
+    {
+      "Icon": "static/images/actions/playcredits_white",
+      "Name": "播放制作人员名单",
+      "States": [
+        {
+          "FontSize": "16",
+          "TitleAlignment": "bottom",
+          "Image": "static/images/icons/credits"
+        }
+      ],
+      "Controllers": [
+        "Keypad",
+        "Information"
+      ],
+      "UserTitleEnabled": true,
+      "SupportedInMultiActions": false,
+      "Tooltip": "行动说明",
+      "UUID": "com.mirabox.streamdock.streamlabs.action6",
+      "PropertyInspectorPath": "propertyInspector/action6/index.html"
+    },
+    {
+      "Icon": "static/images/actions/emptyjar_white",
+      "Name": "清空罐子",
+      "States": [
+        {
+          "FontSize": "16",
+          "TitleAlignment": "bottom",
+          "Image": "static/images/icons/emptyjar"
+        }
+      ],
+      "Controllers": [
+        "Keypad",
+        "Information"
+      ],
+      "UserTitleEnabled": true,
+      "SupportedInMultiActions": false,
+      "Tooltip": "行动说明",
+      "UUID": "com.mirabox.streamdock.streamlabs.action7",
+      "PropertyInspectorPath": "propertyInspector/action7/index.html"
+    },
+    {
+      "Icon": "static/images/actions/profile_white",
+      "Name": "更改配置文件",
+      "States": [
+        {
+          "FontSize": "16",
+          "TitleAlignment": "bottom",
+          "Image": "static/images/icons/profile"
+        }
+      ],
+      "Controllers": [
+        "Keypad",
+        "Information"
+      ],
+      "UserTitleEnabled": true,
+      "SupportedInMultiActions": false,
+      "Tooltip": "行动说明",
+      "UUID": "com.mirabox.streamdock.streamlabs.action8",
+      "PropertyInspectorPath": "propertyInspector/action8/index.html"
+    },
+    {
+      "Icon": "static/images/actions/media_pause_white",
+      "Name": "暂停媒体",
+      "States": [
+        {
+          "State": 0,
+          "FontSize": "16",
+          "TitleAlignment": "bottom",
+          "Image": "static/images/icons/media_paused"
+        },
+        {
+          "State": 1,
+          "FontSize": "16",
+          "TitleAlignment": "bottom",
+          "Image": "static/images/icons/media_resumed"
+        }
+      ],
+      "Controllers": [
+        "Keypad",
+        "Information"
+      ],
+      "UserTitleEnabled": true,
+      "SupportedInMultiActions": false,
+      "Tooltip": "行动说明",
+      "UUID": "com.mirabox.streamdock.streamlabs.action9",
+      "PropertyInspectorPath": "propertyInspector/action9/index.html"
+    },
+    {
+      "Icon": "static/images/actions/media_volume_white",
+      "Name": "调节音量",
+      "States": [
+        {
+          "State": 0,
+          "FontSize": "16",
+          "TitleAlignment": "bottom",
+          "Image": "static/images/icons/media_volumeup"
+        },
+        {
+          "State": 1,
+          "FontSize": "16",
+          "TitleAlignment": "bottom",
+          "Image": "static/images/icons/media_volumedown"
+        }
+      ],
+      "Controllers": [
+        "Keypad",
+        "Information"
+      ],
+      "UserTitleEnabled": true,
+      "SupportedInMultiActions": false,
+      "Tooltip": "行动说明",
+      "UUID": "com.mirabox.streamdock.streamlabs.action10",
+      "PropertyInspectorPath": "propertyInspector/action10/index.html"
+    },
+    {
+      "Icon": "static/images/actions/media_skip_white",
+      "Name": "跳过媒体",
+      "States": [
+        {
+          "FontSize": "16",
+          "TitleAlignment": "bottom",
+          "Image": "static/images/icons/media_skip"
+        }
+      ],
+      "Controllers": [
+        "Keypad",
+        "Information"
+      ],
+      "UserTitleEnabled": true,
+      "SupportedInMultiActions": false,
+      "Tooltip": "行动说明",
+      "UUID": "com.mirabox.streamdock.streamlabs.action11",
+      "PropertyInspectorPath": "propertyInspector/action11/index.html"
+    },
+    {
+      "Icon": "static/images/actions/media_playback_white",
+      "Name": "上一个媒体",
+      "States": [
+        {
+          "FontSize": "16",
+          "TitleAlignment": "bottom",
+          "Image": "static/images/icons/media_playback"
+        }
+      ],
+      "Controllers": [
+        "Keypad",
+        "Information"
+      ],
+      "UserTitleEnabled": true,
+      "SupportedInMultiActions": false,
+      "Tooltip": "行动说明",
+      "UUID": "com.mirabox.streamdock.streamlabs.action12",
+      "PropertyInspectorPath": "propertyInspector/action12/index.html"
+    },
+    {
+      "Icon": "static/images/actions/media_request_white",
+      "Name": "切换请求",
+      "States": [
+        {
+          "State": 0,
+          "FontSize": "16",
+          "TitleAlignment": "bottom",
+          "Image": "static/images/icons/media_request_enabled"
+        },
+        {
+          "State": 1,
+          "FontSize": "16",
+          "TitleAlignment": "bottom",
+          "Image": "static/images/icons/media_request_disabled"
+        }
+
+      ],
+      "Controllers": [
+        "Keypad",
+        "Information"
+      ],
+      "UserTitleEnabled": true,
+      "SupportedInMultiActions": false,
+      "Tooltip": "行动说明",
+      "UUID": "com.mirabox.streamdock.streamlabs.action13",
+      "PropertyInspectorPath": "propertyInspector/action13/index.html"
+    },
+    {
+      "Icon": "static/images/actions/media_autoplay_white",
+      "Name": "切换自动播放",
+      "States": [
+        {
+          "State": 0,
+          "FontSize": "16",
+          "TitleAlignment": "bottom",
+          "Image": "static/images/icons/media_autoplay_disabled"
+        },
+        {
+          "State": 1,
+          "FontSize": "16",
+          "TitleAlignment": "bottom",
+          "Image": "static/images/icons/media_autoplay_enabled"
+        }
+      ],
+      "Controllers": [
+        "Keypad",
+        "Information"
+      ],
+      "UserTitleEnabled": true,
+      "SupportedInMultiActions": false,
+      "Tooltip": "行动说明",
+      "UUID": "com.mirabox.streamdock.streamlabs.action14",
+      "PropertyInspectorPath": "propertyInspector/action14/index.html"
+    },
+    {
+      "Icon": "static/images/actions/media_autoshow_white",
+      "Name": "切换自动显示",
+      "States": [
+        {
+          "State": 0,
+          "FontSize": "16",
+          "TitleAlignment": "bottom",
+          "Image": "static/images/icons/media_autoshow_enabled"
+        },
+        {
+          "State": 1,
+          "FontSize": "16",
+          "TitleAlignment": "bottom",
+          "Image": "static/images/icons/media_autoshow_disabled"
+        }
+
+      ],
+      "Controllers": [
+        "Keypad",
+        "Information"
+      ],
+      "UserTitleEnabled": true,
+      "SupportedInMultiActions": false,
+      "Tooltip": "行动说明",
+      "UUID": "com.mirabox.streamdock.streamlabs.action15",
+      "PropertyInspectorPath": "propertyInspector/action15/index.html"
+    },
+    {
+      "Icon": "static/images/actions/media_moderation_white",
+      "Name": "切换调节",
+      "States": [
+        {
+          "State": 0,
+          "FontSize": "16",
+          "TitleAlignment": "bottom",
+          "Image": "static/images/icons/media_moderation_enabled"
+        },
+        {
+          "State": 1,
+          "FontSize": "16",
+          "TitleAlignment": "bottom",
+          "Image": "static/images/icons/media_moderation_disabled"
+        }
+      ],
+      "Controllers": [
+        "Keypad",
+        "Information"
+      ],
+      "UserTitleEnabled": true,
+      "SupportedInMultiActions": false,
+      "Tooltip": "行动说明",
+      "UUID": "com.mirabox.streamdock.streamlabs.action16",
+      "PropertyInspectorPath": "propertyInspector/action16/index.html"
+    },
+    {
+      "Icon": "static/images/actions/media_backuplist_white",
+      "Name": "切换调节",
+      "States": [
+        {
+          "State": 0,
+          "FontSize": "16",
+          "TitleAlignment": "bottom",
+          "Image": "static/images/icons/media_backuplist_enabled"
+        },
+        {
+          "State": 1,
+          "FontSize": "16",
+          "TitleAlignment": "bottom",
+          "Image": "static/images/icons/media_backuplist_disabled"
+        }
+      ],
+      "Controllers": [
+        "Keypad",
+        "Information"
+      ],
+      "UserTitleEnabled": true,
+      "SupportedInMultiActions": false,
+      "Tooltip": "行动说明",
+      "UUID": "com.mirabox.streamdock.streamlabs.action17",
+      "PropertyInspectorPath": "propertyInspector/action17/index.html"
+    }
+  ],
+  "SDKVersion": 1,
+  "Author": "HotSpot",
+  "Name": "Streamllabs",
+  "Icon": "static/images/actions/category",
+  "CodePath": "plugin/app.exe",
+  "Description": "插件描述",
+  "Category": "Streamllabs",
+  "CategoryIcon": "static/images/actions/category.png",
+  "Version": "1.0.3",
+  "URL": "http://video.hotspotek.com.cn/",
+  "OS": [
+    {
+      "Platform": "mac",
+      "MinimumVersion": "10.11"
+    },
+    {
+      "Platform": "windows",
+      "MinimumVersion": "7"
+    }
+  ],
+  "Software": {
+    "MinimumVersion": "2.9"
+  }
+}

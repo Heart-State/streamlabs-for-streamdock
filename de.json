@@ -1,0 +1,158 @@
+{
+    "Name": "Streamlabs",
+    "Description": "Live-Betrieb von Streamlabs",
+    "com.mirabox.streamdock.streamlabs.action1": {
+        "Name": "Testwarnung",
+        "Tooltip": "Testwarnung"
+    },
+    "com.mirabox.streamdock.streamlabs.action2": {
+        "Name": "Benachrichtigung überspringen",
+        "Tooltip": "Benachrichtigung überspringen"
+    },
+    "com.mirabox.streamdock.streamlabs.action3": {
+        "Name": "Stiller Alarm",
+        "Tooltip": "Stiller Alarm",
+        "States": [
+            {
+                "Name": "stumm"
+            },
+            {
+                "Name": "Stummschaltung aufheben"
+            }
+        ]
+    },
+    "com.mirabox.streamdock.streamlabs.action4": {
+        "Name": "Alarm pausieren",
+        "Tooltip": "Aktivieren Sie die Beschränkung des Chats auf Follower."
+    },
+    "com.mirabox.streamdock.streamlabs.action5": {
+        "Name": "rotierendes Rad",
+        "Tooltip": "Drehen Sie das Glücksrad"
+    },
+    "com.mirabox.streamdock.streamlabs.action6": {
+        "Name": "Spielguthaben",
+        "Tooltip": "Spielguthaben"
+    },
+    "com.mirabox.streamdock.streamlabs.action7": {
+        "Name": "Leeren Sie das Glas",
+        "Tooltip": "Leeren Sie das Glas, um mehr Spenden unterzubringen"
+    },
+    "com.mirabox.streamdock.streamlabs.action8": {
+        "Name": "Konfigurationsdatei ändern",
+        "Tooltip": "Konfigurationsdatei ändern"
+    },
+    "com.mirabox.streamdock.streamlabs.action9": {
+        "Name": "Medien pausieren",
+        "Tooltip": "Aktuelle Medien anhalten/abspielen",
+        "States": [
+            {
+                "Name": "Pause"
+            },
+            {
+                "Name": "weitermachen"
+            }
+        ]
+    },
+    "com.mirabox.streamdock.streamlabs.action10": {
+        "Name": "Lautstärkeregelung",
+        "Tooltip": "Passen Sie die Medienlautstärke an"
+    },
+    "com.mirabox.streamdock.streamlabs.action11": {
+        "Name": "Medien überspringen",
+        "Tooltip": "Zum nächsten Medium springen"
+    },
+    "com.mirabox.streamdock.streamlabs.action12": {
+        "Name": "Vorherige Medien",
+        "Tooltip": "Zum vorherigen Medium springen"
+    },
+    "com.mirabox.streamdock.streamlabs.action13": {
+        "Name": "Wechselwunsch",
+        "Tooltip": "Neue Medienanfragen aktivieren/deaktivieren",
+        "States": [
+            {
+                "Name": "aktivieren"
+            },
+            {
+                "Name": "Deaktivieren"
+            }
+        ]
+    },
+    "com.mirabox.streamdock.streamlabs.action14": {
+        "Name": "Automatische Wiedergabe umschalten",
+        "Tooltip": "Aktivieren/deaktivieren Sie die automatische Wiedergabe kontinuierlicher Medien",
+        "States": [
+            {
+                "Name": "aktivieren"
+            },
+            {
+                "Name": "Deaktivieren"
+            }
+        ]
+    },
+    "com.mirabox.streamdock.streamlabs.action15": {
+        "Name": "Automatische Anzeige umschalten",
+        "Tooltip": "Aktuelle Medien ein-/ausblenden",
+        "States": [
+            {
+                "Name": "aktivieren"
+            },
+            {
+                "Name": "Deaktivieren"
+            }
+        ]
+    },
+    "com.mirabox.streamdock.streamlabs.action16": {
+        "Name": "Schaltereinstellung",
+        "Tooltip": "Moderation der angeforderten Medien aktivieren/deaktivieren",
+        "States": [
+            {
+                "Name": "aktivieren"
+            },
+            {
+                "Name": "Deaktivieren"
+            }
+        ]
+    },
+    "com.mirabox.streamdock.streamlabs.action17": {
+        "Name": "Backup-Liste wechseln",
+        "Tooltip": "Aktivieren/deaktivieren Sie die Verwendung der Backup-Playlist, wenn die Wiedergabe in der Warteschlange beendet ist",
+        "States": [
+            {
+                "Name": "aktivieren"
+            },
+            {
+                "Name": "Deaktivieren"
+            }
+        ]
+    },
+    "Category": "Streamlabs",
+    "Localization": {
+        "执行成功！": "Ausführung gelungen!",
+        "执行失败！": "Ausführung fehlgeschlagen!",
+        "请求过于频繁，请稍后再试！": "Die Anfrage kommt zu häufig, bitte versuchen Sie es später noch einmal!",
+        "字符串太长！": "String ist zu lang!",
+        "账户": "Konto",
+        "未登录": "Nicht eingeloggt",
+        "添加账户": "Konto hinzufügen",
+        "注销": "Ausloggen",
+        "消息": "Information",
+        "授权成功": "Autorisierung erfolgreich",
+        "您已成功授权！": "Sie haben erfolgreich autorisiert!",
+        "Click Me": "Klick mich",
+        "增加音量": "Lautstärke erhöhen",
+        "减少音量": "Lautstärke reduzieren",
+        "无帐户": "Kein Account",
+        "新增": "Neu",
+        "配置文件": "Konfigurationsdatei",
+        "操作": "arbeiten",
+        "调高": "Auftauchen",
+        "调低": "Abdrehen",
+        "保存": "Speichern und autorisieren",
+        "client_secret": "client_secret",
+        "client_id": "client_id",
+        "获取地址": "Adresse abrufen",
+        "https://streamlabs.com/dashboard": "https://streamlabs.com/dashboard",
+        "只在您上线时发挥作用": "Funktioniert nur, wenn Sie online sind",
+        "创建应用并添加两个重定向URL: http://localhost:3056/ 和 http://localhost:3056/settings": "Erstelle die Anwendung, füge dein Konto als letzten Schritt zur Whitelist hinzu und füge zwei Weiterleitungs-URLs hinzu: http://localhost:3056/ und http://localhost:3056/settings"
+    }
+}

@@ -1,0 +1,158 @@
+{
+    "Name": "Streamlabs",
+    "Description": "Streamlabs live operation",
+    "com.mirabox.streamdock.streamlabs.action1": {
+        "Name": "test warning",
+        "Tooltip": "test warning"
+    },
+    "com.mirabox.streamdock.streamlabs.action2": {
+        "Name": "Skip alert",
+        "Tooltip": "Skip alert"
+    },
+    "com.mirabox.streamdock.streamlabs.action3": {
+        "Name": "Silence alarm",
+        "Tooltip": "Silence alarm",
+        "States": [
+            {
+                "Name": "mute"
+            },
+            {
+                "Name": "Unmute"
+            }
+        ]
+    },
+    "com.mirabox.streamdock.streamlabs.action4": {
+        "Name": "Pause alarm",
+        "Tooltip": "Turn on restricting chat to followers."
+    },
+    "com.mirabox.streamdock.streamlabs.action5": {
+        "Name": "rotating wheel",
+        "Tooltip": "Spin the wheel of fortune"
+    },
+    "com.mirabox.streamdock.streamlabs.action6": {
+        "Name": "Play credits",
+        "Tooltip": "Play credits"
+    },
+    "com.mirabox.streamdock.streamlabs.action7": {
+        "Name": "Empty the jar",
+        "Tooltip": "Empty the jar to accommodate more donations"
+    },
+    "com.mirabox.streamdock.streamlabs.action8": {
+        "Name": "Change configuration file",
+        "Tooltip": "Change configuration file"
+    },
+    "com.mirabox.streamdock.streamlabs.action9": {
+        "Name": "pause media",
+        "Tooltip": "Pause/play current media",
+        "States": [
+            {
+                "Name": "pause"
+            },
+            {
+                "Name": "continue"
+            }
+        ]
+    },
+    "com.mirabox.streamdock.streamlabs.action10": {
+        "Name": "volume adjustment",
+        "Tooltip": "Adjust media volume"
+    },
+    "com.mirabox.streamdock.streamlabs.action11": {
+        "Name": "skip media",
+        "Tooltip": "Jump to next media"
+    },
+    "com.mirabox.streamdock.streamlabs.action12": {
+        "Name": "Previous media",
+        "Tooltip": "Jump to previous media"
+    },
+    "com.mirabox.streamdock.streamlabs.action13": {
+        "Name": "Switch request",
+        "Tooltip": "Enable/disable new media requests",
+        "States": [
+            {
+                "Name": "enable"
+            },
+            {
+                "Name": "Disable"
+            }
+        ]
+    },
+    "com.mirabox.streamdock.streamlabs.action14": {
+        "Name": "Toggle autoplay",
+        "Tooltip": "Enable/disable autoplay of continuous media",
+        "States": [
+            {
+                "Name": "enable"
+            },
+            {
+                "Name": "Disable"
+            }
+        ]
+    },
+    "com.mirabox.streamdock.streamlabs.action15": {
+        "Name": "Toggle automatic display",
+        "Tooltip": "Show/hide current media",
+        "States": [
+            {
+                "Name": "enable"
+            },
+            {
+                "Name": "Disable"
+            }
+        ]
+    },
+    "com.mirabox.streamdock.streamlabs.action16": {
+        "Name": "switch adjustment",
+        "Tooltip": "Enable/disable moderation of requested media",
+        "States": [
+            {
+                "Name": "enable"
+            },
+            {
+                "Name": "Disable"
+            }
+        ]
+    },
+    "com.mirabox.streamdock.streamlabs.action17": {
+        "Name": "Switch backup list",
+        "Tooltip": "Enable/disable use of backup playlist when queue has finished playing",
+        "States": [
+            {
+                "Name": "enable"
+            },
+            {
+                "Name": "Disable"
+            }
+        ]
+    },
+    "Category": "Streamlabs",
+    "Localization": {
+        "执行成功！": "execution succeed!",
+        "执行失败！": "Execution failed!",
+        "请求过于频繁，请稍后再试！": "The request is too frequent, please try again later!",
+        "字符串太长！": "String is too long!",
+        "账户": "Account",
+        "未登录": "Not logged in",
+        "添加账户": "Add account",
+        "注销": "Log out",
+        "消息": "information",
+        "授权成功": "Authorization successful",
+        "您已成功授权！": "You have successfully authorized!",
+        "Click Me": "Click Me",
+        "增加音量": "increase volume",
+        "减少音量": "reduce volume",
+        "无帐户": "No account",
+        "新增": "New",
+        "配置文件": "Configuration file",
+        "操作": "operate",
+        "调高": "Turn up",
+        "调低": "Turn down",
+        "保存": "Save and Authorize",
+        "client_secret": "client_secret",
+        "client_id": "client_id",
+        "获取地址": "Get Address",
+        "https://streamlabs.com/dashboard": "https://streamlabs.com/dashboard",
+        "只在您上线时发挥作用": "Only works when you are online",
+       "创建应用并添加两个重定向URL: http://localhost:3056/ 和 http://localhost:3056/settings": "Create the app, add your account to the whitelist as the final step, and add two redirect URLs: http://localhost:3056/ and http://localhost:3056/settings"
+    }
+}

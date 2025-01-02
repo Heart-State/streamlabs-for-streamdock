@@ -1,0 +1,158 @@
+{
+  "Name": "Streamlabs",
+  "Description": "Streamlabs直播操作",
+  "com.mirabox.streamdock.streamlabs.action1": {
+    "Name": "测试警告",
+    "Tooltip": "测试警告"
+  },
+  "com.mirabox.streamdock.streamlabs.action2": {
+    "Name": "跳过警报",
+    "Tooltip": "跳过警报"
+  },
+  "com.mirabox.streamdock.streamlabs.action3": {
+    "Name": "将警报静音",
+    "Tooltip": "将警报静音",
+    "States": [
+      {
+        "Name": "静音"
+      },
+      {
+        "Name": "取消静音"
+      }
+    ]
+  },
+  "com.mirabox.streamdock.streamlabs.action4": {
+    "Name": "暂停警报",
+    "Tooltip": "开启限制为关注者聊天。"
+  },
+  "com.mirabox.streamdock.streamlabs.action5": {
+    "Name": "旋转滚轮",
+    "Tooltip": "旋转幸运之轮"
+  },
+  "com.mirabox.streamdock.streamlabs.action6": {
+    "Name": "播放制作人员名单",
+    "Tooltip": "播放制作人员名单"
+  },
+  "com.mirabox.streamdock.streamlabs.action7": {
+    "Name": "清空罐子",
+    "Tooltip": "清空罐子以容纳更多捐赠"
+  },
+  "com.mirabox.streamdock.streamlabs.action8": {
+    "Name": "更改配置文件",
+    "Tooltip": "更改配置文件"
+  },
+  "com.mirabox.streamdock.streamlabs.action9": {
+    "Name": "暂停媒体",
+    "Tooltip": "暂停/播放当前媒体",
+    "States": [
+      {
+        "Name": "暂停"
+      },
+      {
+        "Name": "继续"
+      }
+    ]
+  },
+  "com.mirabox.streamdock.streamlabs.action10": {
+    "Name": "调节音量",
+    "Tooltip": "调节媒体音量"
+  },
+  "com.mirabox.streamdock.streamlabs.action11": {
+    "Name": "跳过媒体",
+    "Tooltip": "跳转到下一个媒体"
+  },
+  "com.mirabox.streamdock.streamlabs.action12": {
+    "Name": "上一个媒体",
+    "Tooltip": "跳转到上一个媒体"
+  },
+  "com.mirabox.streamdock.streamlabs.action13": {
+    "Name": "切换请求",
+    "Tooltip": "启用/禁用新媒体请求",
+    "States": [
+      {
+        "Name": "启用"
+      },
+      {
+        "Name": "禁用"
+      }
+    ]
+  },
+  "com.mirabox.streamdock.streamlabs.action14": {
+    "Name": "切换自动播放",
+    "Tooltip": "启用/禁用自动播放连续媒体",
+    "States": [
+      {
+        "Name": "启用"
+      },
+      {
+        "Name": "禁用"
+      }
+    ]
+  },
+  "com.mirabox.streamdock.streamlabs.action15": {
+    "Name": "切换自动显示",
+    "Tooltip": "显示/隐藏当前媒体",
+    "States": [
+      {
+        "Name": "启用"
+      },
+      {
+        "Name": "禁用"
+      }
+    ]
+  },
+  "com.mirabox.streamdock.streamlabs.action16": {
+    "Name": "切换调节",
+    "Tooltip": "启用/禁用对请求的媒体进行调节",
+    "States": [
+      {
+        "Name": "启用"
+      },
+      {
+        "Name": "禁用"
+      }
+    ]
+  },
+  "com.mirabox.streamdock.streamlabs.action17": {
+    "Name": "切换备用列表",
+    "Tooltip": "启用/禁用在队列播放完毕时使用备用播放列表",
+    "States": [
+      {
+        "Name": "启用"
+      },
+      {
+        "Name": "禁用"
+      }
+    ]
+  },
+  "Category": "Streamlabs",
+  "Localization": {
+    "执行成功！": "执行成功！",
+    "执行失败！": "执行失败！",
+    "请求过于频繁，请稍后再试！": "请求过于频繁，请稍后再试！",
+    "字符串太长！": "字符串太长！",
+    "账户": "账户",
+    "未登录": "未登录",
+    "添加账户": "添加账户",
+    "注销": "注销",
+    "消息": "消息",
+    "授权成功": "授权成功",
+    "您已成功授权！": "您已成功授权！",
+    "Click Me": "Click Me",
+    "增加音量": "增加音量",
+    "减少音量": "减少音量",
+    "无帐户": "无帐户",
+    "新增": "新增",
+    "配置文件": "配置文件",
+    "操作": "操作",
+    "调高": "调高",
+    "调低": "调低",
+    "保存": "保存并授权",
+    "client_secret": "client_secret",
+    "client_id": "client_id",
+    "获取地址": "获取地址",
+    "https://streamlabs.com/dashboard": "https://streamlabs.com/dashboard",
+    "只在您上线时发挥作用": "只在您上线时发挥作用",
+    "创建应用并添加两个重定向URL: http://localhost:3056/ 和 http://localhost:3056/settings": "创建应用在最后一步将自己账号加入白名单并添加两个重定向URL: http://localhost:3056/ 和 http://localhost:3056/settings"
+  }
+}

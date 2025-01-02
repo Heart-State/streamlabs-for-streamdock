@@ -1,0 +1,158 @@
+{
+    "Name": "Streamlabs",
+    "Description": "Operación en vivo de Streamlabs",
+    "com.mirabox.streamdock.streamlabs.action1": {
+        "Name": "advertencia de prueba",
+        "Tooltip": "advertencia de prueba"
+    },
+    "com.mirabox.streamdock.streamlabs.action2": {
+        "Name": "Saltar alerta",
+        "Tooltip": "Saltar alerta"
+    },
+    "com.mirabox.streamdock.streamlabs.action3": {
+        "Name": "Silenciar alarma",
+        "Tooltip": "Silenciar alarma",
+        "States": [
+            {
+                "Name": "silenciar"
+            },
+            {
+                "Name": "Dejar de silenciar"
+            }
+        ]
+    },
+    "com.mirabox.streamdock.streamlabs.action4": {
+        "Name": "Pausar alarma",
+        "Tooltip": "Activa la restricción del chat a seguidores."
+    },
+    "com.mirabox.streamdock.streamlabs.action5": {
+        "Name": "rueda giratoria",
+        "Tooltip": "Gira la rueda de la fortuna"
+    },
+    "com.mirabox.streamdock.streamlabs.action6": {
+        "Name": "Reproducir créditos",
+        "Tooltip": "Reproducir créditos"
+    },
+    "com.mirabox.streamdock.streamlabs.action7": {
+        "Name": "vaciar el frasco",
+        "Tooltip": "Vacíe el frasco para acomodar más donaciones."
+    },
+    "com.mirabox.streamdock.streamlabs.action8": {
+        "Name": "Cambiar archivo de configuración",
+        "Tooltip": "Cambiar archivo de configuración"
+    },
+    "com.mirabox.streamdock.streamlabs.action9": {
+        "Name": "pausar los medios",
+        "Tooltip": "Pausar/reproducir medios actuales",
+        "States": [
+            {
+                "Name": "pausa"
+            },
+            {
+                "Name": "continuar"
+            }
+        ]
+    },
+    "com.mirabox.streamdock.streamlabs.action10": {
+        "Name": "ajuste de volumen",
+        "Tooltip": "Ajustar el volumen de los medios"
+    },
+    "com.mirabox.streamdock.streamlabs.action11": {
+        "Name": "saltar medios",
+        "Tooltip": "Saltar al siguiente medio"
+    },
+    "com.mirabox.streamdock.streamlabs.action12": {
+        "Name": "Medios anteriores",
+        "Tooltip": "Saltar a medios anteriores"
+    },
+    "com.mirabox.streamdock.streamlabs.action13": {
+        "Name": "Solicitud de cambio",
+        "Tooltip": "Activar/desactivar solicitudes de nuevos medios",
+        "States": [
+            {
+                "Name": "permitir"
+            },
+            {
+                "Name": "Desactivar"
+            }
+        ]
+    },
+    "com.mirabox.streamdock.streamlabs.action14": {
+        "Name": "Alternar reproducción automática",
+        "Tooltip": "Activar/desactivar la reproducción automática de medios continuos",
+        "States": [
+            {
+                "Name": "permitir"
+            },
+            {
+                "Name": "Desactivar"
+            }
+        ]
+    },
+    "com.mirabox.streamdock.streamlabs.action15": {
+        "Name": "Alternar visualización automática",
+        "Tooltip": "Mostrar/ocultar medios actuales",
+        "States": [
+            {
+                "Name": "permitir"
+            },
+            {
+                "Name": "Desactivar"
+            }
+        ]
+    },
+    "com.mirabox.streamdock.streamlabs.action16": {
+        "Name": "ajuste del interruptor",
+        "Tooltip": "Activar/desactivar la moderación de los medios solicitados",
+        "States": [
+            {
+                "Name": "permitir"
+            },
+            {
+                "Name": "Desactivar"
+            }
+        ]
+    },
+    "com.mirabox.streamdock.streamlabs.action17": {
+        "Name": "Cambiar lista de respaldo",
+        "Tooltip": "Activar/desactivar el uso de la lista de reproducción de respaldo cuando la cola haya terminado de reproducirse",
+        "States": [
+            {
+                "Name": "permitir"
+            },
+            {
+                "Name": "Desactivar"
+            }
+        ]
+    },
+    "Category": "Streamlabs",
+    "Localization": {
+        "执行成功！": "¡La ejecución fue exitosa!",
+        "执行失败！": "¡La ejecución falló!",
+        "请求过于频繁，请稍后再试！": "La solicitud es demasiado frecuente, ¡inténtelo de nuevo más tarde!",
+        "字符串太长！": "¡La cuerda es demasiado larga!",
+        "账户": "Cuenta",
+        "未登录": "Sin iniciar sesión",
+        "添加账户": "Añadir cuenta",
+        "注销": "Cerrar sesión",
+        "消息": "información",
+        "授权成功": "Autorización exitosa",
+        "您已成功授权！": "¡Has autorizado exitosamente!",
+        "Click Me": "Haz click en mi",
+        "增加音量": "aumenta el volumen",
+        "减少音量": "reducir el volumen",
+        "无帐户": "Sin cuenta",
+        "新增": "Nuevo",
+        "配置文件": "Archivo de configuración",
+        "操作": "funcionar",
+        "调高": "Aparecer",
+        "调低": "Rechazar",
+        "保存": "Guardar y autorizar",
+        "client_secret": "client_secret",
+        "client_id": "client_id",
+        "获取地址": "Obtener dirección",
+        "https://streamlabs.com/dashboard": "https://streamlabs.com/dashboard",
+        "只在您上线时发挥作用": "Solo funciona cuando estás en línea",
+        "创建应用并添加两个重定向URL: http://localhost:3056/ 和 http://localhost:3056/settings": "Crea la aplicación, añade tu cuenta a la lista blanca como último paso y agrega dos URL de redireccionamiento: http://localhost:3056/ y http://localhost:3056/settings"
+    }
+}

@@ -1,0 +1,158 @@
+{
+    "Name": "Streamlabs",
+    "Description": "Streamlabs 실시간 운영",
+    "com.mirabox.streamdock.streamlabs.action1": {
+        "Name": "테스트 경고",
+        "Tooltip": "테스트 경고"
+    },
+    "com.mirabox.streamdock.streamlabs.action2": {
+        "Name": "알림 건너뛰기",
+        "Tooltip": "알림 건너뛰기"
+    },
+    "com.mirabox.streamdock.streamlabs.action3": {
+        "Name": "무음 알람",
+        "Tooltip": "무음 알람",
+        "States": [
+            {
+                "Name": "무음"
+            },
+            {
+                "Name": "음소거 해제"
+            }
+        ]
+    },
+    "com.mirabox.streamdock.streamlabs.action4": {
+        "Name": "알람 일시중지",
+        "Tooltip": "팔로워로 채팅 제한을 켭니다."
+    },
+    "com.mirabox.streamdock.streamlabs.action5": {
+        "Name": "회전 바퀴",
+        "Tooltip": "행운의 수레바퀴를 돌려보세요"
+    },
+    "com.mirabox.streamdock.streamlabs.action6": {
+        "Name": "플레이 크레딧",
+        "Tooltip": "플레이 크레딧"
+    },
+    "com.mirabox.streamdock.streamlabs.action7": {
+        "Name": "항아리를 비우세요",
+        "Tooltip": "더 많은 기부금을 수용하려면 병을 비우세요."
+    },
+    "com.mirabox.streamdock.streamlabs.action8": {
+        "Name": "구성 파일 변경",
+        "Tooltip": "구성 파일 변경"
+    },
+    "com.mirabox.streamdock.streamlabs.action9": {
+        "Name": "미디어 일시중지",
+        "Tooltip": "현재 미디어 일시중지/재생",
+        "States": [
+            {
+                "Name": "정지시키다"
+            },
+            {
+                "Name": "계속하다"
+            }
+        ]
+    },
+    "com.mirabox.streamdock.streamlabs.action10": {
+        "Name": "볼륨 조정",
+        "Tooltip": "미디어 볼륨 조정"
+    },
+    "com.mirabox.streamdock.streamlabs.action11": {
+        "Name": "미디어 건너뛰기",
+        "Tooltip": "다음 미디어로 이동"
+    },
+    "com.mirabox.streamdock.streamlabs.action12": {
+        "Name": "이전 미디어",
+        "Tooltip": "이전 미디어로 이동"
+    },
+    "com.mirabox.streamdock.streamlabs.action13": {
+        "Name": "전환 요청",
+        "Tooltip": "새 미디어 요청 활성화/비활성화",
+        "States": [
+            {
+                "Name": "~할 수 있게 하다"
+            },
+            {
+                "Name": "장애를 입히다"
+            }
+        ]
+    },
+    "com.mirabox.streamdock.streamlabs.action14": {
+        "Name": "자동재생 전환",
+        "Tooltip": "연속 미디어 자동 재생 활성화/비활성화",
+        "States": [
+            {
+                "Name": "~할 수 있게 하다"
+            },
+            {
+                "Name": "장애를 입히다"
+            }
+        ]
+    },
+    "com.mirabox.streamdock.streamlabs.action15": {
+        "Name": "자동 표시 전환",
+        "Tooltip": "현재 미디어 표시/숨기기",
+        "States": [
+            {
+                "Name": "~할 수 있게 하다"
+            },
+            {
+                "Name": "장애를 입히다"
+            }
+        ]
+    },
+    "com.mirabox.streamdock.streamlabs.action16": {
+        "Name": "스위치 조정",
+        "Tooltip": "요청된 미디어 조정 활성화/비활성화",
+        "States": [
+            {
+                "Name": "~할 수 있게 하다"
+            },
+            {
+                "Name": "장애를 입히다"
+            }
+        ]
+    },
+    "com.mirabox.streamdock.streamlabs.action17": {
+        "Name": "백업 목록 전환",
+        "Tooltip": "대기열 재생이 완료되면 백업 재생 목록 사용 활성화/비활성화",
+        "States": [
+            {
+                "Name": "~할 수 있게 하다"
+            },
+            {
+                "Name": "장애를 입히다"
+            }
+        ]
+    },
+    "Category": "Streamlabs",
+    "Localization": {
+        "执行成功！": "실행 성공!",
+        "执行失败！": "실행에 실패했습니다!",
+        "请求过于频繁，请稍后再试！": "요청이 너무 잦습니다. 나중에 다시 시도해 주세요!",
+        "字符串太长！": "문자열이 너무 깁니다!",
+        "账户": "계정",
+        "未登录": "로그인하지 않았습니다",
+        "添加账户": "계정을 추가",
+        "注销": "로그 아웃",
+        "消息": "정보",
+        "授权成功": "승인 성공",
+        "您已成功授权！": "성공적으로 승인되었습니다!",
+        "Click Me": "클릭 해주세요",
+        "增加音量": "볼륨을 높여라",
+        "减少音量": "볼륨을 줄이다",
+        "无帐户": "계정 없음",
+        "新增": "새로운",
+        "配置文件": "구성 파일",
+        "操作": "작동하다",
+        "调高": "켜다",
+        "调低": "거절",
+        "保存": "저장 및 승인",
+        "client_secret": "client_secret",
+        "client_id": "client_id",
+        "获取地址": "주소 가져오기",
+        "https://streamlabs.com/dashboard": "https://streamlabs.com/dashboard",
+        "只在您上线时发挥作用": "온라인일 때만 작동합니다",
+        "创建应用并添加两个重定向URL: http://localhost:3056/ 和 http://localhost:3056/settings": "앱을 생성하고 마지막 단계에서 자신의 계정을 화이트리스트에 추가하고 두 개의 리디렉션 URL을 추가하십시오: http://localhost:3056/ 및 http://localhost:3056/settings"
+    }
+}
